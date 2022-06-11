@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANSIColorInTestsOutput.NUnit", "ANSIColorInTestsOutput.NUnit\ANSIColorInTestsOutput.NUnit.csproj", "{5EB1645F-7FC4-49D2-B323-3C8AF356AE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANSIColorInTestsOutput.xUnit", "ANSIColorInTestsOutput.xUnit\ANSIColorInTestsOutput.xUnit.csproj", "{76488B9E-5AC3-4568-AC1F-A1D01284927F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANSIColorInTestsOutput.MSTest", "ANSIColorInTestsOutput.MSTest\ANSIColorInTestsOutput.MSTest.csproj", "{15FAD7E3-FD89-44DF-BE40-868788D7E635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB1645F-7FC4-49D2-B323-3C8AF356AE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB1645F-7FC4-49D2-B323-3C8AF356AE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB1645F-7FC4-49D2-B323-3C8AF356AE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB1645F-7FC4-49D2-B323-3C8AF356AE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76488B9E-5AC3-4568-AC1F-A1D01284927F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76488B9E-5AC3-4568-AC1F-A1D01284927F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76488B9E-5AC3-4568-AC1F-A1D01284927F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76488B9E-5AC3-4568-AC1F-A1D01284927F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FAD7E3-FD89-44DF-BE40-868788D7E635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FAD7E3-FD89-44DF-BE40-868788D7E635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FAD7E3-FD89-44DF-BE40-868788D7E635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FAD7E3-FD89-44DF-BE40-868788D7E635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
