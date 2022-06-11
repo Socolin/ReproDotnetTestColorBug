@@ -1,0 +1,32 @@
+name: xUnit
+
+on:
+  push:
+    branches: [ "main", "ci" ]
+
+jobs:
+  build:
+    env:
+      FORCE_COLOR: 'true'
+      TERM: 'xterm'
+      DOTNET_SYSTEM_CONSOLE_ALLOW_ANSI_COLOR_REDIRECTION: '1'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: 6.0.x
+      - name: Restore dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --no-restore
+      - name: Publish action
+        uses: zyborg/dotnet-tests-report@v1
+        with:
+          project_path: ANSIColorInTestsOutput.xUnit/
+          report_name: ms_xunit
+          report_title: xUnit Tests
+          github_token: ${{ secrets.GITHUB_TOKEN }}
